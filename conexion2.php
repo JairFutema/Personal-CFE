@@ -8,5 +8,5 @@
 	if($conexion -> connect_errno)
 	{
 		die("Falló la conexión :(".$conexion -> mysqli_connect_errno().")".$conexion->mysqli_connect_error());
-	
+	}
 ?>
